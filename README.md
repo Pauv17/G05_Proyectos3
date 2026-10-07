@@ -41,7 +41,7 @@ ros2 launch g05_prii3_turtlesim dibujo.launch.py
 
 ## Control de la Trayectoria (Servicios)
 
-El nodo expone servicios ROS que permiten interactuar con el dibujo en tiempo real[cite: 2]. Para utilizarlos, abre una nueva terminal, carga las variables de entorno (`source ~/g05_prii3_ws/install/setup.bash`) y ejecuta los siguientes comandos según la acción deseada:
+El nodo expone servicios ROS que permiten interactuar con el dibujo en tiempo real. Para utilizarlos, abre una nueva terminal, carga las variables de entorno (`source ~/g05_prii3_ws/install/setup.bash`) y ejecuta los siguientes comandos según la acción deseada:
 
 * **Pausar el movimiento de la tortuga:**
   bash
