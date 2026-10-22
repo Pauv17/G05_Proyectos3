@@ -1,0 +1,4 @@
+[console_scripts]
+collision = g05_prii3_move_jetbot.collision:main
+draw_number = g05_prii3_move_jetbot.draw_number:main
+

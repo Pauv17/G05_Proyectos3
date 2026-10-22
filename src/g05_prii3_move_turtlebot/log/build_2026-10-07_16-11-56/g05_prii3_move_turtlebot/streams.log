@@ -1,0 +1,35 @@
+[0.407s] Invoking command in '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot': PYTHONPATH=/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/g05_prii3_move_turtlebot build --build-base /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/build install --record /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/install.log --install-scripts $base/lib/g05_prii3_move_turtlebot --single-version-externally-managed install_data
+[0.525s] running egg_info
+[0.525s] creating build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info
+[0.525s] writing build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/PKG-INFO
+[0.525s] writing dependency_links to build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/dependency_links.txt
+[0.525s] writing entry points to build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/entry_points.txt
+[0.525s] writing requirements to build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/requires.txt
+[0.525s] writing top-level names to build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/top_level.txt
+[0.525s] writing manifest file 'build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/SOURCES.txt'
+[0.526s] reading manifest file 'build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/SOURCES.txt'
+[0.526s] writing manifest file 'build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info/SOURCES.txt'
+[0.526s] running build
+[0.526s] running build_py
+[0.526s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/build
+[0.526s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/build/lib
+[0.526s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/build/lib/g05_prii3_move_turtlebot
+[0.526s] copying g05_prii3_move_turtlebot/__init__.py -> /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/build/lib/g05_prii3_move_turtlebot
+[0.526s] running install
+[0.527s] running install_lib
+[0.527s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages/g05_prii3_move_turtlebot
+[0.527s] copying /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/build/lib/g05_prii3_move_turtlebot/__init__.py -> /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages/g05_prii3_move_turtlebot
+[0.527s] byte-compiling /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages/g05_prii3_move_turtlebot/__init__.py to __init__.cpython-310.pyc
+[0.527s] running install_data
+[0.527s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/share
+[0.527s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/share/ament_index
+[0.527s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/share/ament_index/resource_index
+[0.527s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/share/ament_index/resource_index/packages
+[0.527s] copying resource/g05_prii3_move_turtlebot -> /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/share/ament_index/resource_index/packages
+[0.527s] creating /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot
+[0.528s] copying package.xml -> /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot
+[0.528s] running install_egg_info
+[0.528s] Copying build/g05_prii3_move_turtlebot/g05_prii3_move_turtlebot.egg-info to /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages/g05_prii3_move_turtlebot-0.0.0-py3.10.egg-info
+[0.529s] running install_scripts
+[0.540s] writing list of installed files to '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/install.log'
+[0.552s] Invoked command in '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot' returned '0': PYTHONPATH=/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/g05_prii3_move_turtlebot build --build-base /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/build install --record /home/pauv17/proyectos3/src/g05_prii3_move_turtlebot/build/g05_prii3_move_turtlebot/install.log --install-scripts $base/lib/g05_prii3_move_turtlebot --single-version-externally-managed install_data

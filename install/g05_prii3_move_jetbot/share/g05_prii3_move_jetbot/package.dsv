@@ -1,0 +1,3 @@
+source;share/g05_prii3_move_jetbot/hook/pythonpath.ps1
+source;share/g05_prii3_move_jetbot/hook/pythonpath.dsv
+source;share/g05_prii3_move_jetbot/hook/pythonpath.sh
