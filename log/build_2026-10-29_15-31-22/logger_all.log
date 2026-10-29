@@ -1,0 +1,231 @@
+[0.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x742ab465b2b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x742ab47d3f70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x742ab47d3f70>>, mixin_verb=('build',))
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.331s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pauv17/proyectos3'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/g05_prii3_move_jetbot'
+[0.341s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/g05_prii3_move_jetbot': Error(s) in package 'src/g05_prii3_move_jetbot/package.xml':
+Invalid email "Pauv17" for person "pauv17"
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'python'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/g05_prii3_move_jetbot' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_jetbot) by extension 'python_setup_py'
+[0.481s] DEBUG:colcon.colcon_core.package_identification:Package 'src/g05_prii3_move_jetbot' with type 'python' and name 'g05_prii3_move_jetbot'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_move_turtlebot) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/g05_prii3_move_turtlebot' with type 'ros.ament_python' and name 'g05_prii3_move_turtlebot'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/g05_prii3_turtlesim) by extension 'ros'
+[0.483s] DEBUG:colcon.colcon_core.package_identification:Package 'src/g05_prii3_turtlesim' with type 'ros.ament_python' and name 'g05_prii3_turtlesim'
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 440 installed packages in /opt/ros/humble
+[0.510s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_jetbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'g05_prii3_move_jetbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pauv17/proyectos3/build/g05_prii3_move_jetbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot', 'merge_install': False, 'path': '/home/pauv17/proyectos3/src/g05_prii3_move_jetbot', 'symlink_install': False, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_move_turtlebot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'g05_prii3_move_turtlebot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pauv17/proyectos3/build/g05_prii3_move_turtlebot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot', 'merge_install': False, 'path': '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot', 'symlink_install': False, 'test_result_base': None}
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.536s] Level 5:colcon.colcon_core.verb:set package 'g05_prii3_turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.536s] DEBUG:colcon.colcon_core.verb:Building package 'g05_prii3_turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pauv17/proyectos3/build/g05_prii3_turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pauv17/proyectos3/install/g05_prii3_turtlesim', 'merge_install': False, 'path': '/home/pauv17/proyectos3/src/g05_prii3_turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.536s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.537s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.537s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pauv17/proyectos3/src/g05_prii3_move_jetbot'
+[0.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot' with build type 'ament_python'
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('g05_prii3_move_turtlebot', 'ament_prefix_path')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/hook/ament_prefix_path.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/hook/ament_prefix_path.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/hook/ament_prefix_path.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.545s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pauv17/proyectos3/src/g05_prii3_turtlesim' with build type 'ament_python'
+[0.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('g05_prii3_turtlesim', 'ament_prefix_path')
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/hook/ament_prefix_path.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/hook/ament_prefix_path.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/hook/ament_prefix_path.sh'
+[0.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.806s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot'
+[0.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.938s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pauv17/proyectos3/src/g05_prii3_turtlesim'
+[0.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.941s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, saveopts, bdist, symlink_data, build_clib, build_scripts, sdist, register, extract_messages, build_ext, test, install_lib, bdist_wheel, bdist_dumb, upload_docs, update_catalog, bdist_egg, egg_info, install, install_scripts, install_egg_info, setopt, alias, rotate, check, bdist_rpm, dist_info, build_py, upload, compile_catalog, build, develop, easy_install, init_catalog, clean, install_data
+[0.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pauv17/proyectos3/src/g05_prii3_move_jetbot': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_move_jetbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_move_jetbot build --build-base /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/build install --record /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/install.log --install-scripts $base/lib/g05_prii3_move_jetbot --single-version-externally-managed install_data
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pauv17/proyectos3/src/g05_prii3_move_jetbot' returned '0': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_move_jetbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_move_jetbot build --build-base /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/build install --record /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/install.log --install-scripts $base/lib/g05_prii3_move_jetbot --single-version-externally-managed install_data
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot' for CMake config files
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/bin'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/pkgconfig/g05_prii3_move_jetbot.pc'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/python3.10/site-packages'
+[1.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('g05_prii3_move_jetbot', 'pythonpath')
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/hook/pythonpath.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/hook/pythonpath.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/hook/pythonpath.sh'
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/bin'
+[1.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(g05_prii3_move_jetbot)
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/package.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/package.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/package.sh'
+[1.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/package.bash'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/g05_prii3_move_jetbot/package.zsh'
+[1.108s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/share/colcon-core/packages/g05_prii3_move_jetbot)
+[1.124s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, saveopts, bdist, symlink_data, build_clib, build_scripts, sdist, register, extract_messages, build_ext, test, install_lib, bdist_wheel, bdist_dumb, upload_docs, update_catalog, bdist_egg, egg_info, install, install_scripts, install_egg_info, setopt, alias, rotate, check, bdist_rpm, dist_info, build_py, upload, compile_catalog, build, develop, easy_install, init_catalog, clean, install_data
+[1.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_move_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_move_turtlebot build --build-base /home/pauv17/proyectos3/build/g05_prii3_move_turtlebot/build install --record /home/pauv17/proyectos3/build/g05_prii3_move_turtlebot/install.log --install-scripts $base/lib/g05_prii3_move_turtlebot --single-version-externally-managed install_data
+[1.133s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, saveopts, bdist, symlink_data, build_clib, build_scripts, sdist, register, extract_messages, build_ext, test, install_lib, bdist_wheel, bdist_dumb, upload_docs, update_catalog, bdist_egg, egg_info, install, install_scripts, install_egg_info, setopt, alias, rotate, check, bdist_rpm, dist_info, build_py, upload, compile_catalog, build, develop, easy_install, init_catalog, clean, install_data
+[1.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pauv17/proyectos3/src/g05_prii3_turtlesim': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_turtlesim build --build-base /home/pauv17/proyectos3/build/g05_prii3_turtlesim/build install --record /home/pauv17/proyectos3/build/g05_prii3_turtlesim/install.log --install-scripts $base/lib/g05_prii3_turtlesim --single-version-externally-managed install_data
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_turtlesim' for CMake module files
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pauv17/proyectos3/src/g05_prii3_turtlesim' returned '0': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_turtlesim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_turtlesim build --build-base /home/pauv17/proyectos3/build/g05_prii3_turtlesim/build install --record /home/pauv17/proyectos3/build/g05_prii3_turtlesim/install.log --install-scripts $base/lib/g05_prii3_turtlesim --single-version-externally-managed install_data
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_turtlesim' for CMake config files
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/lib'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/bin'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/lib/pkgconfig/g05_prii3_turtlesim.pc'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/lib/python3.10/site-packages'
+[1.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('g05_prii3_turtlesim', 'pythonpath')
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/hook/pythonpath.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/hook/pythonpath.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/hook/pythonpath.sh'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/bin'
+[1.282s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(g05_prii3_turtlesim)
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/package.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/package.dsv'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/package.sh'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/package.bash'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/g05_prii3_turtlesim/package.zsh'
+[1.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pauv17/proyectos3/install/g05_prii3_turtlesim/share/colcon-core/packages/g05_prii3_turtlesim)
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot' for CMake module files
+[1.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pauv17/proyectos3/src/g05_prii3_move_turtlebot' returned '0': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_move_turtlebot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_move_turtlebot build --build-base /home/pauv17/proyectos3/build/g05_prii3_move_turtlebot/build install --record /home/pauv17/proyectos3/build/g05_prii3_move_turtlebot/install.log --install-scripts $base/lib/g05_prii3_move_turtlebot --single-version-externally-managed install_data
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot' for CMake config files
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/lib'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/bin'
+[1.286s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/lib/pkgconfig/g05_prii3_move_turtlebot.pc'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/lib/python3.10/site-packages'
+[1.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('g05_prii3_move_turtlebot', 'pythonpath')
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/hook/pythonpath.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/hook/pythonpath.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/hook/pythonpath.sh'
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/bin'
+[1.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(g05_prii3_move_turtlebot)
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/package.ps1'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/package.dsv'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/package.sh'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/package.bash'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/g05_prii3_move_turtlebot/package.zsh'
+[1.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pauv17/proyectos3/install/g05_prii3_move_turtlebot/share/colcon-core/packages/g05_prii3_move_turtlebot)
+[1.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.289s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.289s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.294s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.313s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.313s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pauv17/proyectos3/install/local_setup.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pauv17/proyectos3/install/_local_setup_util_ps1.py'
+[1.315s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pauv17/proyectos3/install/setup.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pauv17/proyectos3/install/local_setup.sh'
+[1.316s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pauv17/proyectos3/install/_local_setup_util_sh.py'
+[1.316s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pauv17/proyectos3/install/setup.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pauv17/proyectos3/install/local_setup.bash'
+[1.317s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pauv17/proyectos3/install/setup.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pauv17/proyectos3/install/local_setup.zsh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pauv17/proyectos3/install/setup.zsh'

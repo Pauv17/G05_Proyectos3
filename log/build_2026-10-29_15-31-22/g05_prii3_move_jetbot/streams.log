@@ -1,0 +1,22 @@
+[0.406s] Invoking command in '/home/pauv17/proyectos3/src/g05_prii3_move_jetbot': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_move_jetbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_move_jetbot build --build-base /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/build install --record /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/install.log --install-scripts $base/lib/g05_prii3_move_jetbot --single-version-externally-managed install_data
+[0.529s] running egg_info
+[0.529s] writing ../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info/PKG-INFO
+[0.529s] writing dependency_links to ../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info/dependency_links.txt
+[0.530s] writing entry points to ../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info/entry_points.txt
+[0.530s] writing requirements to ../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info/requires.txt
+[0.530s] writing top-level names to ../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info/top_level.txt
+[0.530s] reading manifest file '../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info/SOURCES.txt'
+[0.531s] writing manifest file '../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info/SOURCES.txt'
+[0.531s] running build
+[0.531s] running build_py
+[0.532s] running install
+[0.532s] running install_lib
+[0.533s] running install_data
+[0.533s] running install_egg_info
+[0.534s] removing '/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/python3.10/site-packages/g05_prii3_move_jetbot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.534s] Copying ../../build/g05_prii3_move_jetbot/g05_prii3_move_jetbot.egg-info to /home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/python3.10/site-packages/g05_prii3_move_jetbot-0.0.0-py3.10.egg-info
+[0.535s] running install_scripts
+[0.545s] Installing collision script to /home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/g05_prii3_move_jetbot
+[0.545s] Installing draw_number script to /home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/g05_prii3_move_jetbot
+[0.546s] writing list of installed files to '/home/pauv17/proyectos3/build/g05_prii3_move_jetbot/install.log'
+[0.559s] Invoked command in '/home/pauv17/proyectos3/src/g05_prii3_move_jetbot' returned '0': PYTHONPATH=/home/pauv17/proyectos3/build/g05_prii3_move_jetbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pauv17/proyectos3/install/g05_prii3_move_jetbot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g05_prii3_move_jetbot build --build-base /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/build install --record /home/pauv17/proyectos3/build/g05_prii3_move_jetbot/install.log --install-scripts $base/lib/g05_prii3_move_jetbot --single-version-externally-managed install_data
